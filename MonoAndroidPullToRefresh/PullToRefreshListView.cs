@@ -67,7 +67,6 @@ namespace MonoAndroid.PullToRefresh
 
     private void Initialize()
     {
-      Console.WriteLine("Init PulltoRefreshView");
       mFlipAnimation = new RotateAnimation(0, -180,
                 (int)Android.Views.Animations.Dimension.RelativeToSelf, 0.5f,
                 (int)Android.Views.Animations.Dimension.RelativeToSelf, 0.5f);
