@@ -66,6 +66,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\ic_pulltorefresh_arrow.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="android-pull-to-refresh.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.
