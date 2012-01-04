@@ -64,10 +64,10 @@
     <AndroidResource Include="Resources\Drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\ic_pulltorefresh_arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="android-pull-to-refresh.png" />
+    <AndroidResource Include="Resources\Drawable-hdpi\ic_pulltorefresh_arrow.png" />
+    <AndroidResource Include="Resources\Drawable-ldpi\ic_pulltorefresh_arrow.png" />
+    <AndroidResource Include="Resources\Drawable-mdpi\ic_pulltorefresh_arrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
