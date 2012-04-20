@@ -68,8 +68,8 @@ namespace MonoAndroid.PullToRefresh
     private void Initialize()
     {
       mFlipAnimation = new RotateAnimation(0, -180,
-                (int)Android.Views.Animations.Dimension.RelativeToSelf, 0.5f,
-                (int)Android.Views.Animations.Dimension.RelativeToSelf, 0.5f);
+                Android.Views.Animations.Dimension.RelativeToSelf, 0.5f,
+                Android.Views.Animations.Dimension.RelativeToSelf, 0.5f);
 
 
       mFlipAnimation.Interpolator = new LinearInterpolator();
@@ -78,8 +78,8 @@ namespace MonoAndroid.PullToRefresh
       mFlipAnimation.FillAfter = true;
 
       mReverseFlipAnimation = new RotateAnimation(-180, 0,
-              (int)Android.Views.Animations.Dimension.RelativeToSelf, 0.5f,
-              (int)Android.Views.Animations.Dimension.RelativeToSelf, 0.5f);
+              Android.Views.Animations.Dimension.RelativeToSelf, 0.5f,
+              Android.Views.Animations.Dimension.RelativeToSelf, 0.5f);
 
       mReverseFlipAnimation.Interpolator = new LinearInterpolator();
       mReverseFlipAnimation.Duration = 250;
