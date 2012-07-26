@@ -118,6 +118,7 @@ namespace MonoAndroid.PullToRefresh
 
     protected override void OnAttachedToWindow()
     {
+      base.OnAttachedToWindow();
       SetSelection(1);
     }
 
